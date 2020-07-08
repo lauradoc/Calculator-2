@@ -17,3 +17,9 @@ while True:
         if tokens[0] == '-':
             num1 = int(tokens[1])
             num2 = int(tokens[2])
+            print(subtract(num1, num2))
+        if tokens[0] == '*':
+            num1 = int(tokens[1])
+            num2 = int(tokens[2])
+            print(multiply(num1, num2))
+        
